@@ -1,5 +1,5 @@
 FROM golang:latest
-COPY . /workspace
+COPY . /root
 RUN apt-get update \
     && export GO111MODULE=on \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \

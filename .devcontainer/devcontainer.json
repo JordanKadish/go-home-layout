@@ -12,7 +12,7 @@
     ],
     "shutdownAction": "stopCompose",
     // "postCreateCommand": "go mod download", // installs go modules
-    "workspaceFolder": "/workspace",
+    "workspaceFolder": "/root",
     "runArgs": [
         "-v",
         "/var/run/docker.sock:/var/run/docker.sock",

@@ -24,7 +24,7 @@ services:
             - ~/.ssh:/home/go-demo-app/.ssh:ro
             - ~/.ssh:/root/.ssh:ro
             - /var/run/docker.sock:/var/run/docker.sock
-        working_dir: /workspace
+        working_dir: /root
         # links:
         #     - redis
         # networks: 
