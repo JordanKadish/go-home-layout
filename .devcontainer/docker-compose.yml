@@ -10,7 +10,6 @@ services:
         environment:
             - TZ=
             - GOPATH=/root/go
-            - GOROOT=/root/go
             - GOTOOLDIR=/root/go/pkg/tool/linux_amd64
         build:
             # This allows us to access higher up files
