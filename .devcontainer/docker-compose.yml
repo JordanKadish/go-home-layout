@@ -9,6 +9,7 @@ services:
         # entrypoint: zsh -c "while sleep 1000; do :; done"
         environment:
             - TZ=
+            - GOPATH=/root/go
         build:
             # This allows us to access higher up files
             context: ..
@@ -24,7 +25,7 @@ services:
             - ~/.ssh:/home/go-demo-app/.ssh:ro
             - ~/.ssh:/root/.ssh:ro
             - /var/run/docker.sock:/var/run/docker.sock
-        working_dir: /root
+        working_dir: /root/go
         # links:
         #     - redis
         # networks: 
