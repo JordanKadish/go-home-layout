@@ -1,0 +1,5 @@
+**/*.devcontainer
+**/*.dockerignore
+**/*LICENSE
+**/*README.md
+**/*go_project_1
